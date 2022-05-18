@@ -505,7 +505,7 @@ public class MainActivity extends AppCompatActivity {
     public void moreApp() {
         startActivity(new Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://play.google.com/store/apps/dev?id=7081479513420377164&hl=en")));
+                Uri.parse("https://play.google.com/store/apps/developer?id=myworld")));
     }
 
     private long mLastBackClick = 0;
